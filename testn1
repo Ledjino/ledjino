@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Une histoire fascinante racontée en plusieurs chapitres.">
+    <title>Mon Histoire</title>
+    <style>
+        /* Style général de la page */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        nav {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 15px;
+            margin: 0 10px;
+        }
+
+        nav a:hover {
+            background-color: #575757;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 0 15px;
+        }
+
+        .chapter {
+            background-color: #fff;
+            margin-bottom: 20px;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .chapter h2 {
+            color: #4CAF50;
+        }
+
+        .chapter img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- En-tête -->
+    <header>
+        <h1>Bienvenue sur "L'Histoire Magique"</h1>
+        <p>Un voyage fascinant à travers les mots</p>
+    </header>
+
+    <!-- Menu de navigation -->
+    <nav>
+        <a href="#chapter1">Chapitre 1</a>
+        <a href="#chapter2">Chapitre 2</a>
+        <a href="#chapter3">Chapitre 3</a>
+    </nav>
+
+    <!-- Contenu principal -->
+    <div class="container">
+        <!-- Chapitre 1 -->
+        <section id="chapter1" class="chapter">
+            <h2>Chapitre 1 : Le début du voyage</h2>
+            <p>Il était une fois, dans un petit village perdu au cœur des montagnes, un jeune garçon nommé Pierre...</p>
+            <img src="ukflows.JPG" alt="Image du chapitre 1">
+            <p>Le vent soufflait doucement, et l'odeur du bois frais remplissait l'air. Pierre s'apprêtait à partir pour une aventure qui allait changer sa vie à jamais...</p>
+        </section>
+
+        <!-- Chapitre 2 -->
+        <section id="chapter2" class="chapter">
+            <h2>Chapitre 2 : Le premier obstacle</h2>
+            <p>Alors que Pierre traversait la forêt, il se retrouva face à un grand mur de pierres anciennes...</p>
+            <img src="uk flows 2.JPG" alt="Image du chapitre 2">
+            <p>Le mur semblait indestructible, mais Pierre savait qu'il devait continuer son chemin. Après tout, il avait un but à atteindre...</p>
+        </section>
+
+        <!-- Chapitre 3 -->
+        <section id="chapter3" class="chapter">
+            <h2>Chapitre 3 : La découverte inattendue</h2>
+            <p>Un jour, alors que le soleil commençait à se coucher, Pierre fit une découverte surprenante dans les ruines anciennes...</p>
+            <img src="https://via.placeholder.com/800x400" alt="Image du chapitre 3">
+            <p>Au cœur des pierres, il trouva une clé d'or... mais à quoi pouvait-elle bien servir ?</p>
+        </section>
+    </div>
+
+    <!-- Pied de page -->
+    <footer>
+        <p>&copy; 2024 Mon Histoire. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
